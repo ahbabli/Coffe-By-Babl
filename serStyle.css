@@ -1,0 +1,47 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+
+}
+.container{
+
+    position: relative;
+    left: 9px;
+    top: 300px;
+    background: chocolate;
+    width: 600px;
+    border-radius: 20px;
+    
+}
+.container:hover{
+
+    position: relative;
+    left: 9px;
+    top: 300px;
+    background: rgb(161, 77, 17);
+    width: 600;
+    border-radius: 20px;
+    
+    
+}
+.container h1{
+    font-size: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+
+}
+.container h2{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+
+}

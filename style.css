@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+body {
+    background-color: black;
+}
+header{
+    background-color: #000000d5;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: enter;
+    padding: 10px 200px;
+}
+.Logo{
+    text-decoration:none;
+    color: #ffffff;
+    //text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+.Logo:hover{
+    color:#b85310;
+
+}
+
+.Logo span {
+    color: #b85310;
+    text-decoration:none;
+}
+.Logo span:hover {
+    color: #ffffff;
+    text-decoration:none;
+}
+.navigation a{
+    color:#faffd0 ;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1em;
+    padding-left: 30px;
+
+}
+
+.navigation a:hover {
+    color:#b85310 ;
+}
+
+section{
+    padding: 100px 200px;
+}
+.main{
+    width:100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url('coffeeback.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed;
+
+}
+.main h2 {
+    color: white;
+    font-size: 1.8em;
+    font-weight: 500;
+}
+.main h2 span {
+    display: inline-block;
+    margin-top: 10px;
+    color: #e97e37;
+    font-size: 2em;
+    font-weight: 600;
+}
+.main h3{
+    color: white;
+    font-size: 1.7em;
+    font-weight: 300;
+    letter-spacing: px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.main-btn {
+    color: white;
+    background-color: #b85310;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+   /* padding: 0.9375em 2.1875em;*/
+    padding: 15px 35px;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.6s ease ;
+
+}
+.main-btn:hover{
+    color: white;
+    background-color: #a34f17;
+    transform: scale(1.1);
+    color: white;
+    
+}
+.social-icn a{
+    /*color: #faf849;*/
+    color: rgb(0, 0, 0);
+    font-size: 1.7em;
+    padding-right: 50px;
+    transition: 0.5s ease;
+    text-decoration: none;
+    font-size: 100px;
+    margin: 70px;
+
+    
+}
+.fa:hover {
+    font-size: 90px;
+    margin: 80px;
+    color: black;
+
+}
+.fa-facebook:hover {
+    font-size: 90px;
+    margin: 80px;
+    color: rgb(255, 255, 255);
+
+}
+.fa-snapchat-ghost:hover {
+    font-size: 90px;
+    margin: 80px;
+    color: rgb(246, 255, 0);
+
+}
+.fa-twitter:hover {
+    font-size: 90px;
+    margin: 80px;
+    color: rgb(6, 122, 255);
+
+}
+.fa-instagram:hover {
+    font-size: 90px;
+    margin: 80px;
+    color: rgb(253, 119, 155);
+
+}
+
+.discover {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url('coffee2back.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: f/ixed;
+    
+    
+}
+.menucon{
+    padding-left: 700px;
+    padding-bottom: 5%;
+    
+}
+.discover h1{
+    color: chocolate;
+    display: flex;
+    justify-content: center;
+    
+    
+    
+} 
+.menu {
+    
+    color: white;
+    text-align: right;
+    
+}
+
+
+footer{
+    background-color:#95430d;
+    height: 600px;
+}
+.foot{
+    color: white;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom:8%;
+}
+.foot h4{
+    padding-right: 4%;
+}
+.foot h5{
+    padding-top: 100px;
+    color: black;
+    font-weight: 5px;
+    font-family: sans-serif;
+}
+
+@media only screen and (max-width:700px){
+    body {
+        margin: 0;
+        width: 100%;
+        height: ;
+        background-color: black;
+    }
+    header{
+        background-color: #000000d5;
+        width: 390px;
+       display: flex;
+       justify-content: flex-start;
+        
+    }
+    header a{
+        float: left;
+        
+    }
+    .Logo{
+        margin: 0;
+        padding: 0;
+        f
+        text-decoration:none;
+        color: #ffffff;
+        font-weight: 700;
+        font-size: 1.4em;
+    }
+    .Logo:hover{
+        color:#b85310;
+    
+    }
+    .navigation a{
+        color:#faffd0 ;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 1.1em;
+        padding-left:;
+    
+    }
+    
+    .navigation a:hover {
+        color:#b85310 ;
+    }
+    section{
+        padding: 100px 200px;
+    }
+    .main{
+        float: left;
+        width:100%;
+        min-height: 100vh;
+        display: flex;
+       justify-content: flex-start;
+        background: url('coffeephone.jpg') no-repeat;
+        background-size: ;
+        background-position: ;
+        background-attachment:fixed;
+    
+    }
+    .main h2 {
+        
+        color: white;
+        font-size: 1.8em;
+        font-weight: 500;
+    }
+    .main h2 span {
+        text-align: left;
+        margin-top: 10px;
+        color: #e97e37;
+        font-size: 2em;
+        font-weight: 600;
+    }
+    .main h3{
+        color: white;
+        font-size: 1.7em;
+        font-weight: 300;
+       
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .discover {
+        width: ;
+        min-height:;
+        display: flex;
+        justify-content: center;
+        align-items: ;
+        background: url('cofphone2.jpg') no-repeat;
+        background-size: cover;
+        background-position: ;
+        background-attachment: 
+        
+        
+    }
+    .menucon{
+        float: 
+
+
+        
+    }
+    .discover h1{
+        color: chocolate;
+        display: flex;
+        justify-content: center;
+        
+        
+        
+    } 
+    .menu {
+        
+        color: white;
+        text-align: ;
+        
+    }
+    
+    
+
+
+
+}
